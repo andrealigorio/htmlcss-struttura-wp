@@ -47,18 +47,18 @@ main {
   margin-bottom: 3vh;
 }
 
-.lateral {
-  width: 20%;
+.box {
   height: 70vh;
   background-color: lightblue;
   float: left;
 }
 
-.middle {
+.box.lateral {
+  width: 20%;
+}
+
+.box.middle {
   width: calc(60% - 4vh);
-  height: 70vh;
-  background-color: lightblue;
-  float: left;
   margin: 0 2vh;
 }
 
